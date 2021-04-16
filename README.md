@@ -5,7 +5,7 @@ NYU CAES and MASY wish to develop additional tools for student job seekers to ma
 ## How to use?
 1. Visit https://occupationanalyzer.shinyapps.io/AppliedProject2/
 2. Clone all files to your PC and run it locally.
-
+3. If you run the code locally, modify the code in server.R "occupation_df <- read.csv('O_NET JOBS Cleaned utf8.csv')" to "occupation_df <- read.csv('O_NET JOBS Cleaned.csv')". Use "Jobs Test File with Scores Cleaned.csv" as the job list or save your jobs list as CSV file instead of CSV UTF-8(Comma delimited)(*.csv) file.
 ## Input
 1. A resume as .txt file.
 2. A job list as CSV UTF-8(Comma delimited)(*.csv) file.
